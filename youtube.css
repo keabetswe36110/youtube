@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Rubik+Bubbles&display=swap');
+:root{
+    --lightgrey:#f2f2f2;
+}
+body{
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+.main-container{
+    height: 100vh;
+}
+.left-bar{
+    width: 20%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.right-bar{
+    width: 80%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.gap-1em{
+    gap: 1em;
+}
+.item-alight{
+    align-items: center;
+}
+.menu-bar{
+    padding: 10px;
+    margin: 10px;
+    /* background-color: lightgray; */
+    border-radius: 30px;
+}
+.padding-5px{
+    padding: 5px
+}
+.height-60px{
+    height: 60px;
+}
+.font-size{
+    font-size: 30px;
+}
+.section{
+    overflow-y: auto;
+    height: calc(100% - 60px);
+}
+.width-90{
+    width: 90%;
+}
+.width-100{
+    width: 100%;
+}
+.justify-center{
+    justify-content: center;
+}
+.colomn{
+    flex-direction: column;
+}
+.border-bottom{
+    border-bottom: solid;
+    border-bottom-color: var(--lightgrey)
+}
+.height-30{
+    height: 30%;
+}
+.border-bottom h3{
+    font-weight: 100;
+}
+.right-nav-bar{
+    height: 120px;
+    /* background-color: bisque; */
+}
+.spaceBetween{
+    justify-content: space-between;
+
+}
+.right-nav-bar input{
+    width: 500px;
+    height: 38px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.circle-bg{
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 30px;
+}
+.justify-spaceAround{
+    justify-content: space-around;
+}
+.channels{
+    width: max-content;
+}
+.channels div{
+    background-color:var(--lightgrey);
+    border-radius: 7px;
+    box-sizing: border-box;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.channels div h3{
+    padding: 5px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.content{
+    overflow-y: auto;
+    height: 100%;
+}
+.main-right{
+    min-height: 100%;
+    box-sizing: border-box;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    height: 200px;
+}
+.center-center{
+    justify-content: center;
+    align-items: center;
+}
+.full-height{
+    height: 100%;
+}
+.back{
+    z-index: -1;
+}
+.margin-top{
+    margin-top: 120px;
+}
+.gap-3em{
+    gap: 3em;
+}
